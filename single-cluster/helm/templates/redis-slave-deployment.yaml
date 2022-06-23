@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: slave
-        image: e2eteam/gb-redisslave:v2
+        image: platform9/gb-redisslave:v1
         resources:
           requests:
             cpu: 100m
